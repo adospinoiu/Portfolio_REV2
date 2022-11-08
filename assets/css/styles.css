@@ -77,7 +77,8 @@ body {
     /* for dark mode animation */
 }
 
-h1,h2,h3 {
+h1,h2,
+h3 {
     color: var(--title-color);
     font-family: var(--title-font);
     font-weight: var(--font-medium);
@@ -157,7 +158,35 @@ body.dark-theme {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+    width: 100%;
+    position: fixed;
+    bottom: 2rem;
+    left: 0;
+    z-index: var(--z-fixed);
+}
 
+.nav {
+    height: calc(var(--header-height) + 0.5rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--body-color);
+    box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
+    padding-inline: 1.5rem;
+    border-radius: 3rem;
+}
+
+.nav__logo,
+.nav__toggle,
+.nav__close {
+    color: var(--title-color);
+}
+
+.nav__logo {
+    font-family: var(--title-font);
+    font-weight: var(--font-medium);
+}
 
 /* Show menu */
 
