@@ -11,6 +11,9 @@
     <!--================= REMIXICONS ==============-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
+    <!--================== SWIPER CSS ==================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
     <!--================== CSS ==================-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -426,18 +429,18 @@
         <!--=============== PROJECTS ===============-->
         <section class="projects section" id="projects">
             <h2 class="section__title">Projects</h2>
-            <span class="section__title">Most Recent Work</span>
+            <span class="section__subtitle">Most Recent Work</span>
 
             <div class="container section__border">
-                <div class="projects__container">
-                    <div>
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
                         <!--=============== PROJECT 1 ===============-->
-                        <div class="projects__content">
-                            <img src="" alt="projects image" class="projects__img">
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/quizzical.png" alt="projects image" class="projects__img">
 
                             <div>
-                                <span class="projects__subtitle"></span>
-                                <h1 class="projects__title"></h1>
+                                <span class="projects__subtitle">Full Stack</span>
+                                <h1 class="projects__title">Qizzical App</h1>
 
                                 <a href="#" class="projects__button">
                                     View Demo <i class="ri-arrow-right-line"></i>
@@ -446,12 +449,12 @@
                         </div>
 
                         <!--=============== PROJECT 2 ===============-->
-                        <div class="projects__content">
-                            <img src="" alt="projects image" class="projects__img">
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/readingapp.PNG" alt="projects image" class="projects__img">
 
                             <div>
-                                <span class="projects__subtitle"></span>
-                                <h1 class="projects__title"></h1>
+                                <span class="projects__subtitle">Full Stack</span>
+                                <h1 class="projects__title">Reading List App</h1>
 
                                 <a href="#" class="projects__button">
                                     View Demo <i class="ri-arrow-right-line"></i>
@@ -460,26 +463,12 @@
                         </div>
 
                         <!--=============== PROJECT 3 ===============-->
-                        <div class="projects__content">
-                            <img src="" alt="projects image" class="projects__img">
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/AWS_Employee_Information_Bank-wireframe.PNG" alt="projects image" class="projects__img">
 
                             <div>
-                                <span class="projects__subtitle"></span>
-                                <h1 class="projects__title"></h1>
-
-                                <a href="#" class="projects__button">
-                                    View Demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--=============== PROJECT 4 ===============-->
-                        <div class="projects__content">
-                            <img src="" alt="projects image" class="projects__img">
-
-                            <div>
-                                <span class="projects__subtitle"></span>
-                                <h1 class="projects__title"></h1>
+                                <span class="projects__subtitle">Full Stack</span>
+                                <h1 class="projects__title">Employee Info Bank App</h1>
 
                                 <a href="#" class="projects__button">
                                     View Demo <i class="ri-arrow-right-line"></i>
@@ -487,6 +476,17 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Swiper Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <!-- Swiper Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -501,6 +501,11 @@
     <footer class="footer">
 
     </footer>
+
+    <!--==================== SWIPER JS =================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS =================-->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
