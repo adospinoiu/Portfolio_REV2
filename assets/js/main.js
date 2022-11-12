@@ -51,7 +51,7 @@ let swiperProjects = new Swiper(".projects__container", {
 
 /* ======= SWIPER TESTIMONIALS ====== */
 let swiperTestimonial = new Swiper(".testimonial__container", {
-    loop: true,
+    // loop: true,
     spaceBetwee: 24,
 
     navigation: {
