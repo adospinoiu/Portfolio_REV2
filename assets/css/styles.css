@@ -881,8 +881,42 @@ body.dark-theme{
     text-decoration: underline;
 }
 
-/*=============== SCROLL BAR ===============*/
+.footer__social{
+    column-gap: 1.25rem;
+}
 
+.footer__social-link{
+    font-size: 1.25rem;
+    color: var(--title-color);
+    transition: transform 0.3s;
+}
+
+.footer__social-link:hover{
+    transform: translateY(-0.15rem);
+}
+
+.footer__copy{
+    display: block;
+    margin-top: 4.5rem;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+    widows: 0.6rem;
+    border-radius: 0.5rem;
+    background-color: hsl(207, 4%, 75%);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hsl(207, 4%, 65%);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(207, 4%, 55%);
+}
 
 /*=============== SCROLL UP ===============*/
 
