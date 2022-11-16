@@ -1142,6 +1142,10 @@ body.dark-theme{
     .show-scroll{
         bottom: 5rem;
     }
-
-
+    .bg-header{
+        box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
+    }
+    .dark-theme .bg-header{
+        box-shadow: 0 6px 24px hsla(207, 24%, 8%, 0.6);
+    }
 }
