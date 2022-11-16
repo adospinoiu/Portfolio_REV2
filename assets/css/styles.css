@@ -1206,4 +1206,42 @@ body.dark-theme{
     .skills__container{
         column-gap: 10rem;
     }
+    .skills__title{
+        margin-bottom: 3rem;
+    }
+    .skills__title i{
+        font-size: 1.25rem;
+    }
+    .skills__name{
+        font-size: var(--normal-font-size);
+    }
+    .skills__info{
+        gap: 3rem;
+    }
+    .qualification__container{
+        column-gap: 14rem;
+    }
+    .qualification__title{
+        margin-bottom: 3rem;
+    }
+    .qualification__title i{
+        font-size: 1.25rem;
+    }
+    .qualification__name{
+        font-size: var(--h3-font-size);
+    }
+    .qualification__img{
+        width: 300px;
+        left: -6rem;
+        bottom: 5rem;
+    }
+    .services__container{
+        grid-template-columns: repeat(3, max-content);
+    }
+    .services__card{
+        width: 245px;
+        height: 345px;
+        border-radius: 7.6rem;
+        padding: 3.5rem 1.5rem;
+    }
 }
