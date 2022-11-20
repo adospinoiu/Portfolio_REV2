@@ -1027,7 +1027,7 @@ body.dark-theme{
     }
     .projects__container,
     .skills__container{
-        width: 400px;
+        width: 400px; /*THIS MIGHT BE THE ISSUE> THE SKILLS CONTAINER SHOULD NOT BE HERE*/
     }
     .projects__container{
         overflow: hidden;
