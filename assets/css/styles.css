@@ -730,12 +730,13 @@ body.dark-theme{
 
 .testimonial__container .swiper-button-prev,
 .testimonial__container .swiper-button-next{
-    width: initial;
-    height: initial;
-    margin: initial;
     font-size: 2rem;
     color: var(--title-color);
+    width: initial;
+    height: initial;
+    top: initial;
     bottom: 0.5rem;
+    /* margin: initial; */
 }
 
 .testimonial__container .swiper-button-prev{
@@ -751,6 +752,7 @@ body.dark-theme{
     color: var(--text-color-light);
 }
 
+/*
 .testimonial__container .swiper-pagination-bullets{
     bottom: 0;
 }
@@ -763,7 +765,7 @@ body.dark-theme{
 .testimonial__container .swiper-pagination-bullet-active{
     background-color: var(--title-color);
 }
-
+*/
 /*=============== CONTACT ===============*/
 .contact__container{
     row-gap: 3.5rem;
@@ -1026,8 +1028,8 @@ body.dark-theme{
         justify-content: center;
     }
     .projects__container,
-    .skills__container{
-        width: 400px; /*THIS MIGHT BE THE ISSUE> THE SKILLS CONTAINER SHOULD NOT BE HERE*/
+    .testimonial__container{
+        width: 400px; 
     }
     .projects__container{
         overflow: hidden;
@@ -1198,7 +1200,7 @@ body.dark-theme{
         font-size: 1.5rem;
     }
     .home__info{
-        grid-template-columns: repeat(3, 130px);
+        grid-template-rows: repeat(3, 130px);
         row-gap: 4rem;
         margin-top: 16rem;
     }

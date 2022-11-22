@@ -52,7 +52,7 @@ let swiperProjects = new Swiper(".projects__container", {
 /* ======= SWIPER TESTIMONIALS ====== */
 let swiperTestimonial = new Swiper(".testimonial__container", {
     // loop: true,
-    spaceBetwee: 24,
+    spaceBetween: 24,
 
     navigation: {
         nextEl: ".swiper-button-next",
@@ -63,8 +63,8 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     },
     breakpoints: {
         1200: {
-            slidesPerView: 2,
-            spaceBetween: -56,
+            slidesPerView: 1,
+            // spaceBetween: -56,
         }
     },
 })
